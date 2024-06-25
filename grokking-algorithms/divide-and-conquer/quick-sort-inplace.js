@@ -12,10 +12,10 @@ const partition = (arr, lo, hi) =>
   while (true)
   {
     while (arr[++i] < arr[lo])
-      if (i == hi) break;
+      if (i === hi) break;
 
     while (arr[lo] < arr[--j])
-      if (j == lo) break;
+      if (j === lo) break;
 
     if (i >= j) break;
 
