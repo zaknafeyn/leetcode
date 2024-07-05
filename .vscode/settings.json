@@ -1,0 +1,12 @@
+{
+  "java.project.sourcePaths": [
+    "coursera/algorithms-part-I/CollinearPoints/src/",
+    "coursera/algorithms-part-I/Percolation/src/",
+    "coursera/algorithms-part-I/RandomizedQueue/src/",
+    "coursera/algorithms-part-I/SliderPuzzle/src/"
+  ],
+  "java.project.referencedLibraries": [
+    "coursera/algorithms-part-I/libs/algs4.jar"
+  ],
+  "java.format.settings.url": ".vscode/java-formatter.xml",
+}

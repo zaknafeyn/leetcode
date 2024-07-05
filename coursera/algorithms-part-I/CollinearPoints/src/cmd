@@ -1,0 +1,13 @@
+export CLASSPATH=../libs/algs4.jar:bin/:src/
+
+javac src/Point.java -d bin/
+javac src/LineSegment.java -d bin/
+
+# --------
+
+java src/Point.java 
+
+java src/BruteCollinearPoints.java src/inputs/input8.txt
+
+#--------
+zip collinear.zip ./src/BruteCollinearPoints.java ./src/FastCollinearPoints.java ./src/Point.java

@@ -1,0 +1,13 @@
+export CLASSPATH=../libs/algs4.jar:bin/:src/
+
+javac src/Board.java -d bin/
+
+# --------
+
+java src/Board.java 
+
+java src/Board.java inputs/puzzle3x3-01.txt
+java src/Solver.java inputs/puzzle3x3-13.txt
+
+#--------
+zip 8puzzle.zip ./src/Board.java ./src/Solver.java

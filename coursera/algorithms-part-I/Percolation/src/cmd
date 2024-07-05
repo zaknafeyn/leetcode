@@ -1,0 +1,14 @@
+javac -cp ../libs/algs4.jar src/Percolation.java 
+
+java -cp ../libs/algs4.jar:src/ src/PercolationStats.java
+
+java -cp ../libs/algs4.jar:src/ src/PercolationVisualizer.java src/input20.txt
+
+
+//---- NO CLASSPATH params ----
+export CLASSPATH=../libs/algs4.jar:src/
+
+javac src/Percolation.java 
+java src/PercolationVisualizer.java src/input20.txt
+
+

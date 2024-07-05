@@ -1,0 +1,62 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "FastCollinearPoints - 2x2",
+      "request": "launch",
+      "mainClass": "FastCollinearPoints",
+      "projectName": "CollinearPoints_1d002e80",
+      "args": "src/inputs/grid2x2.txt"
+    },
+    {
+      "type": "java",
+      "name": "FastCollinearPoints - 5x5",
+      "request": "launch",
+      "mainClass": "FastCollinearPoints",
+      "projectName": "CollinearPoints_1d002e80",
+      "args": "src/inputs/grid5x5.txt"
+    },
+    {
+      "type": "java",
+      "name": "FastCollinearPoints - 8",
+      "request": "launch",
+      "mainClass": "FastCollinearPoints",
+      "projectName": "CollinearPoints_1d002e80",
+      "args": "src/inputs/input8.txt"
+    },
+    {
+      "type": "java",
+      "name": "BruteCollinearPoints - 8",
+      "request": "launch",
+      "mainClass": "BruteCollinearPoints",
+      "projectName": "CollinearPoints_1d002e80",
+      "args": "src/inputs/input8.txt"
+    },
+    {
+      "type": "java",
+      "name": "BruteCollinearPoints - 1",
+      "request": "launch",
+      "mainClass": "BruteCollinearPoints",
+      "projectName": "CollinearPoints_1d002e80",
+      "args": "src/inputs/input1.txt"
+    },
+    {
+      "type": "java",
+      "name": "Point",
+      "request": "launch",
+      "mainClass": "Point",
+      "projectName": "CollinearPoints_1d002e80"
+    }
+  ]
+}

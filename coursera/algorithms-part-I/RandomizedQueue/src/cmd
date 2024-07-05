@@ -1,0 +1,10 @@
+export CLASSPATH=../libs/algs4.jar:src/
+
+javac src/Deque.java 
+javac src/RandomizedQueue.java 
+
+java src/Permutation.java 
+
+java src/Permutation.java 3 < src/inputs/tale.txt  
+
+zip queues.zip Deque.java Permutation.java RandomizedQueue.java
